@@ -14,19 +14,25 @@ def clean_text(text: str):
 def preprocess(load_path: Path, save_path: Path):
 
     df = pd.read_csv(load_path)
-    df =df.drop(columns= ["ID", "Vulnerability"])
-    df =df.dropna()
+
+    df = df.drop(columns=["ID", "Vulnerability"])
+
+    df["Technique"] = df["Technique"].replace(r'^\s*$', pd.NA, regex=True)
+    df["Technique"] = df["Technique"].apply(lambda x: x.lower() if isinstance(x, str) else x)
+
+    # Apply rule: if Manipulative == 1, Technique must exist
+    df = df[~((df["Manipulative"] == 1) & (df["Technique"].isna()))]
 
     df["Dialogue"] = df["Dialogue"].apply(clean_text)
+
+    df.to_csv(save_path, index=False)
 
     # print(df.info())
     # print(df.describe())
     # print(df["Dialogue"].iloc[2])
 
-    df.to_csv(save_path, index= False)
-
 if __name__ == "__main__":
     preprocess(
-        load_path= MAJ_R,
-        save_path= MAJ_P
+        load_path= CON_R,
+        save_path= CON_P
     )
