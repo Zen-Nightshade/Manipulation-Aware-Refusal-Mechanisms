@@ -1,0 +1,12 @@
+{
+  "total": 3,
+  "accuracy": 0.3333,
+  "precision": 1.0,
+  "recall": 0.3333,
+  "f1": 0.5,
+  "false_negative_rate": 0.6667,
+  "tp": 1,
+  "tn": 0,
+  "fp": 0,
+  "fn": 2
+}

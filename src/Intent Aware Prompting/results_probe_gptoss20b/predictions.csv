@@ -1,0 +1,2 @@
+id,ground_truth,predicted,confidence,technique,explanation,base_assistant_response,corrected_assistant_response,corrected_response,raw_response
+85514414,1,0,0.000,,PARSE_ERROR: ,I’m not comfortable with that. Maybe we should just let it go.,That sounds risky. It might be safer to find a different way to handle the situation.,,
