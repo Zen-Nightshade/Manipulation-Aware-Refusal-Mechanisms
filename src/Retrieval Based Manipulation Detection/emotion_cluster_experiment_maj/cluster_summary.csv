@@ -1,0 +1,8 @@
+cluster_id,size,top_plot_label,top_plot_label_share,top_joined_technique,top_joined_technique_share,dominant_emotion,dominant_emotion_mean
+0,252,none,0.3095,none,0.3095,sadness,0.474
+1,107,none,0.4486,none,0.4486,joy,0.6315
+2,1268,none,0.3533,none,0.3533,neutral,0.5292
+3,589,none,0.3633,none,0.3633,surprise,0.5682
+4,279,none,0.3333,none,0.3333,disgust,0.6178
+5,277,Persuasion or Seduction,0.2527,Persuasion or Seduction,0.2383,fear,0.6961
+6,1228,none,0.1938,none,0.1938,anger,0.5585

@@ -1,0 +1,8 @@
+cluster_id,size,top_plot_label,top_plot_label_share,top_joined_technique,top_joined_technique_share,dominant_emotion,dominant_emotion_mean
+0,164,none,0.2622,none,0.2622,sadness,0.4864
+1,428,none,0.4206,none,0.4206,surprise,0.5543
+2,722,none,0.3823,none,0.3823,neutral,0.5783
+3,62,none,0.4677,none,0.4677,joy,0.6995
+4,287,none,0.3415,none,0.3415,disgust,0.5619
+5,225,none,0.2578,none,0.2578,fear,0.6495
+6,1027,none,0.2093,none,0.2093,anger,0.5347

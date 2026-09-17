@@ -2,7 +2,7 @@
 __pycache__/
 *.py[codz]
 *$py.class
-
+*.pkl
 # C extensions
 *.so
 
@@ -209,3 +209,9 @@ __marimo__/
 
 # env files
 *.env
+
+data/*
+data.zip
+docs/Deep Research Result.pdf
+docs/mid_presentation_recordings.zip
+docs/lock.png

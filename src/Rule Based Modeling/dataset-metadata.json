@@ -1,0 +1,11 @@
+{
+  "id": "Vinaykarthik V/manipulation-detection-nlp",
+  "title": "Manipulation Detection NLP",
+  "code_file": false,
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "description": "NLP project for manipulation-aware refusal mechanisms"
+}
